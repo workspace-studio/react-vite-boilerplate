@@ -1,12 +1,7 @@
 import React from 'react';
 
-import Layout from '@/components/Layout';
-import Home from '@/views/Home';
+import AppRouter from '@/routers/AppRouter';
 
-const App: React.FC = () => (
-  <Layout>
-    <Home />
-  </Layout>
-);
+const App: React.FC = () => <AppRouter />;
 
 export default App;

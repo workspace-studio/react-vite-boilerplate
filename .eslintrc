@@ -125,10 +125,17 @@
     ],
     "jsx-a11y/mouse-events-have-key-events": ["off"],
     "newline-before-return": "error",
+    "no-continue": "off",
+    "no-duplicate-imports": "error",
     "no-param-reassign": "off",
     "no-redeclare": "off",
     "no-restricted-globals": "off",
-    "no-continue": "off",
+    "no-restricted-imports": [
+      "warn",
+      {
+        "patterns": ["../"]
+      }
+    ],
     "no-shadow": ["off"],
     "no-underscore-dangle": "off",
     "no-unused-vars": ["off"],

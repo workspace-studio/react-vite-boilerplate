@@ -12,7 +12,7 @@ First, make sure you have `Node.js` (**npm** or **yarn**) installed.
 
 ```
 $ node -v
-v16.x.x
+v20.x.x
 ```
 
 Also, you can use `nvm` as a helpful tool to install the correct **node** and **npm**/**yarn** version.

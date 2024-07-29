@@ -16,7 +16,7 @@
     "sass": "^1.77.8"
   },
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "husky",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",

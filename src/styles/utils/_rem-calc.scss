@@ -30,7 +30,7 @@ $rem-base: 16px;
   $max: list.length($values);
 
   @if $max == 1 {
-    @return convert-to-rem(nth($values, 1), $base-value);
+    @return convert-to-rem(list.nth($values, 1), $base-value);
   }
 
   $rem-values: ();

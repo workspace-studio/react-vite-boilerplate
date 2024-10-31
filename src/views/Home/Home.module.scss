@@ -1,5 +1,6 @@
-@import '@/styles/main';
-@import '@/styles/globals/animations';
+@use '@/styles/settings/variables' as *;
+@use '@/styles/utils/rem-calc' as *;
+@use '@/styles/globals/animations';
 
 .container {
   padding: rem-calc(32);

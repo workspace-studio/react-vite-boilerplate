@@ -1,5 +1,5 @@
 @use 'sass:map';
-@import '@/styles/settings/variables';
+@use '../settings/variables' as *;
 
 @mixin media($fromBr: 0, $toBr: 0) {
   $from: if(map.has-key($breakpoints, $fromBr), map.get($breakpoints, $fromBr), $fromBr);

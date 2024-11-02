@@ -1,3 +1,5 @@
+@use '@/styles/utils/rem-calc' as *;
+
 .container {
   min-height: 100vh;
   padding: rem-calc(0 8);

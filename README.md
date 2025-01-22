@@ -20,7 +20,7 @@ Also, you can use `nvm` as a helpful tool to install the correct **node** and **
 ### Installing the application
 
 ```
-$ git clone https://github.com/workspace-studio/react-boilerplate.git <my-project-name>
+$ git clone https://github.com/workspace-studio/react-vite-boilerplate.git <my-project-name>
 $ cd <my-project-name>
 $ yarn
 ```
@@ -127,7 +127,7 @@ As a "base" style guide, the [Airbnb's style guide](https://airbnb.io/javascript
 
 ## Versioning
 
-This project use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/workspace-studio/react-boilerplate/tags).
+This project use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/workspace-studio/react-vite-boilerplate/tags).
 
 ## Contributing
 

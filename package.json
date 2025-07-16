@@ -9,6 +9,7 @@
     "url": "https://workspace.hr"
   },
   "dependencies": {
+    "@vitejs/plugin-react-swc": "^3.10.2",
     "clsx": "^2.1.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",

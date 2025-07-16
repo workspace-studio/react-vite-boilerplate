@@ -65,7 +65,7 @@
     "stylelint": "^16.17.0",
     "stylelint-config-prettier-scss": "^1.0.0",
     "stylelint-config-standard-scss": "^14.0.0",
-    "stylelint-scss": "^6.11.1",
+    "stylelint-scss": "^6.12.1",
     "typescript": "^5.8.3",
     "vite": "^6.2.7"
   }

@@ -17,7 +17,7 @@
   "plugins": ["react-hooks", "prettier"],
   "settings": {
     "react": {
-      "version": "19.1",
+      "version": "detect",
       "pragma": "React"
     },
     "import/resolver": {

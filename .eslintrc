@@ -14,13 +14,10 @@
     "plugin:import/warnings",
     "plugin:import/typescript"
   ],
-  "plugins": [
-    "react-hooks",
-    "prettier"
-  ],
+  "plugins": ["react-hooks", "prettier"],
   "settings": {
     "react": {
-      "version": "detect",
+      "version": "19.1",
       "pragma": "React"
     },
     "import/resolver": {
@@ -29,17 +26,8 @@
         "project": "./"
       },
       "node": {
-        "extensions": [
-          ".js",
-          ".jsx",
-          ".ts",
-          ".tsx",
-          ".json"
-        ],
-        "moduleDirectory": [
-          "node_modules",
-          "src/"
-        ]
+        "extensions": [".js", ".jsx", ".ts", ".tsx", ".json"],
+        "moduleDirectory": ["node_modules", "src/"]
       }
     }
   },
@@ -68,76 +56,43 @@
     "@typescript-eslint/no-unused-vars": "warn",
     "@typescript-eslint/no-use-before-define": "error",
     "@typescript-eslint/no-require-imports": "off",
+    "@typescript-eslint/no-empty-object-type": "error",
+    "@typescript-eslint/no-unsafe-function-type": "error",
+    "@typescript-eslint/no-wrapper-object-types": "error",
+    "@typescript-eslint/no-unused-expressions": "error",
+    "@typescript-eslint/prefer-namespace-keyword": "error",
     "padding-line-between-statements": [
       "error",
       {
         "blankLine": "always",
-        "prev": [
-          "const",
-          "let",
-          "var"
-        ],
+        "prev": ["const", "let", "var"],
         "next": "*"
       },
       {
         "blankLine": "always",
         "prev": "*",
-        "next": [
-          "const",
-          "let",
-          "var",
-          "function",
-          "class"
-        ]
+        "next": ["const", "let", "var", "function", "class"]
       },
       {
         "blankLine": "any",
-        "prev": [
-          "const",
-          "let",
-          "var"
-        ],
-        "next": [
-          "const",
-          "let",
-          "var"
-        ]
+        "prev": ["const", "let", "var"],
+        "next": ["const", "let", "var"]
       },
       {
         "blankLine": "always",
         "prev": "*",
-        "next": [
-          "if",
-          "while",
-          "for"
-        ]
+        "next": ["if", "while", "for"]
       },
       {
         "blankLine": "always",
-        "prev": [
-          "if",
-          "while",
-          "for"
-        ],
+        "prev": ["if", "while", "for"],
         "next": "*"
       }
     ],
-    "quotes": [
-      2,
-      "single",
-      {
-        "avoidEscape": true
-      }
-    ],
-    "class-methods-use-this": [
-      "off"
-    ],
-    "curly": [
-      "error"
-    ],
-    "global-require": [
-      "off"
-    ],
+    "quotes": [2, "single", { "avoidEscape": true }],
+    "class-methods-use-this": ["off"],
+    "curly": ["error"],
+    "global-require": ["off"],
     "import/default": 2,
     "import/export": 2,
     "import/extensions": [
@@ -152,44 +107,24 @@
     ],
     "import/named": 2,
     "import/namespace": 2,
-    "import/no-cycle": [
-      2,
-      {
-        "maxDepth": 1
-      }
-    ],
-    "import/no-dynamic-require": [
-      "off"
-    ],
+    "import/no-cycle": [2, { "maxDepth": 1 }],
+    "import/no-dynamic-require": ["off"],
     "import/no-extraneous-dependencies": [
       "error",
-      {
-        "devDependencies": [
-          "**/*.test.tsx",
-          "src/setupTests.ts",
-          "vite.config.ts"
-        ]
-      }
+      { "devDependencies": ["**/*.test.tsx", "src/setupTests.ts", "vite.config.ts"] }
     ],
     "import/no-unresolved": "error",
     "import/order": "off",
-    "import/prefer-default-export": [
-      "off"
-    ],
+    "import/prefer-default-export": ["off"],
     "jsx-a11y/label-has-associated-control": [
       "error",
       {
         "required": {
-          "some": [
-            "nesting",
-            "id"
-          ]
+          "some": ["nesting", "id"]
         }
       }
     ],
-    "jsx-a11y/mouse-events-have-key-events": [
-      "off"
-    ],
+    "jsx-a11y/mouse-events-have-key-events": ["off"],
     "newline-before-return": "error",
     "no-continue": "off",
     "no-duplicate-imports": "error",
@@ -199,58 +134,28 @@
     "no-restricted-imports": [
       "warn",
       {
-        "patterns": [
-          "../"
-        ]
+        "patterns": ["../"]
       }
     ],
-    "no-shadow": [
-      "off"
-    ],
+    "no-shadow": ["off"],
     "no-underscore-dangle": "off",
-    "no-unused-vars": [
-      "off"
-    ],
-    "no-use-before-define": [
-      "off"
-    ],
+    "no-unused-vars": ["off"],
+    "no-use-before-define": ["off"],
     "react-hooks/exhaustive-deps": "warn",
     "react-hooks/rules-of-hooks": "error",
-    "react/function-component-definition": [
-      "off"
-    ],
-    "react/jsx-curly-newline": [
-      "off"
-    ],
-    "react/jsx-filename-extension": [
-      1,
-      {
-        "extensions": [
-          ".ts",
-          ".tsx"
-        ]
-      }
-    ],
+    "react/function-component-definition": ["off"],
+    "react/jsx-curly-newline": ["off"],
+    "react/jsx-filename-extension": [1, { "extensions": [".ts", ".tsx"] }],
     "react/jsx-one-expression-per-line": "off",
-    "react/jsx-props-no-spreading": [
-      "off"
-    ],
-    "react/jsx-wrap-multilines": [
-      "off"
-    ],
+    "react/jsx-props-no-spreading": ["off"],
+    "react/jsx-wrap-multilines": ["off"],
     "react/no-unused-prop-types": "off",
-    "react/prop-types": [
-      "off"
-    ],
+    "react/prop-types": ["off"],
     "react/require-default-props": "off",
-    "react/sort-comp": [
-      "off"
-    ],
-    "react/state-in-constructor": [
-      "off"
-    ],
-    "react/static-property-placement": [
-      "off"
-    ]
+    "react/sort-comp": ["off"],
+    "react/state-in-constructor": ["off"],
+    "react/static-property-placement": ["off"],
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-uses-react": "off"
   }
 }

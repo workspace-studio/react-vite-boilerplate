@@ -46,12 +46,9 @@
   },
   "rules": {
     "@typescript-eslint/ban-ts-comment": "off",
-    "@typescript-eslint/ban-ts-ignore": ["off"],
     "@typescript-eslint/ban-types": "off",
-    "@typescript-eslint/camelcase": ["off"],
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
-    "@typescript-eslint/interface-name-prefix": ["off"],
     "@typescript-eslint/no-empty-function": "off",
     "@typescript-eslint/no-namespace": "off",
     "@typescript-eslint/no-redeclare": "warn",
@@ -59,7 +56,12 @@
     "@typescript-eslint/no-unused-vars": "warn",
     "@typescript-eslint/no-use-before-define": "error",
     "@typescript-eslint/no-require-imports": "off",
-    "@typescript-eslint/padding-line-between-statements": [
+    "@typescript-eslint/no-empty-object-type": "error",
+    "@typescript-eslint/no-unsafe-function-type": "error",
+    "@typescript-eslint/no-wrapper-object-types": "error",
+    "@typescript-eslint/no-unused-expressions": "error",
+    "@typescript-eslint/prefer-namespace-keyword": "error",
+    "padding-line-between-statements": [
       "error",
       {
         "blankLine": "always",
@@ -69,7 +71,7 @@
       {
         "blankLine": "always",
         "prev": "*",
-        "next": ["const", "let", "var", "interface", "type", "function", "class"]
+        "next": ["const", "let", "var", "function", "class"]
       },
       {
         "blankLine": "any",
@@ -87,8 +89,7 @@
         "next": "*"
       }
     ],
-    "@typescript-eslint/quotes": [2, "single", { "avoidEscape": true }],
-    "camelcase": ["off"],
+    "quotes": [2, "single", { "avoidEscape": true }],
     "class-methods-use-this": ["off"],
     "curly": ["error"],
     "global-require": ["off"],
@@ -140,7 +141,6 @@
     "no-underscore-dangle": "off",
     "no-unused-vars": ["off"],
     "no-use-before-define": ["off"],
-    "padding-line-between-statements": "off",
     "react-hooks/exhaustive-deps": "warn",
     "react-hooks/rules-of-hooks": "error",
     "react/function-component-definition": ["off"],
@@ -154,6 +154,8 @@
     "react/require-default-props": "off",
     "react/sort-comp": ["off"],
     "react/state-in-constructor": ["off"],
-    "react/static-property-placement": ["off"]
+    "react/static-property-placement": ["off"],
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-uses-react": "off"
   }
 }

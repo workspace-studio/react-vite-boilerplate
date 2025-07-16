@@ -10,5 +10,5 @@ updates:
     schedule:
       interval: "monthly"
     assignees:
-      - "ilovric00"
+      - "Roko03"
     target-branch: "main"

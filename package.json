@@ -12,7 +12,7 @@
     "@vitejs/plugin-react-swc": "^3.11.0",
     "clsx": "^2.1.1",
     "react": "^19.1.1",
-    "react-dom": "^19.1.0",
+    "react-dom": "^19.1.1",
     "react-router-dom": "^7.9.1",
     "sass": "^1.92.1"
   },
@@ -45,7 +45,7 @@
     "@trivago/prettier-plugin-sort-imports": "^5.2.2",
     "@types/node": "^24.5.1",
     "@types/react": "^19.1.13",
-    "@types/react-dom": "^19.1.6",
+    "@types/react-dom": "^19.1.9",
     "@typescript-eslint/eslint-plugin": "8.44.0",
     "@typescript-eslint/parser": "8.44.0",
     "@vitejs/plugin-react": "^5.0.2",
